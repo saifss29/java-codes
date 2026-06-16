@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Budget Tracker</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <h1>🛠 Personal Budget Tracker</h1>
+
+    <div class="form-container">
+      <label for="username">Enter your Name:</label>
+      <input type="text" id="username" placeholder="Your name" />
+      <br /><br />
+
+      <label for="userincome">Income ($):</label>
+      <input type="number" id="userincome" placeholder="Enter income" />
+      <br /><br />
+
+      <label for="numExpenses">Number of Expenses:</label>
+      <input type="number" id="numExpenses" placeholder="e.g. 3" />
+      <br /><br />
+
+      <button id="startBudget">Start Budgeting</button>
+
+      <div id="expenseInputs"></div>
+
+      <br />
+
+      <button id="calculateBudget" style="display: none">
+        Calculate Budget
+      </button>
+
+      <button id="clearBudget" style="display: none">Clear Budget</button>
+    </div>
+
+    <div class="result" id="budgetResult"></div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
