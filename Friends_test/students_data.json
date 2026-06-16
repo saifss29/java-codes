@@ -1,0 +1,41 @@
+{
+  "student": [
+    {
+      "name": "saif islam",
+      "middleName": null,
+      "age": 25,
+      "cgpa": 3.44,
+      "isRegister": true,
+      "languages": ["bengali", "english"],
+      "friends": [
+        {
+          "name": "Anisul",
+          "age": 31
+        },
+        {
+          "name": "rubel",
+          "age": 28
+        }
+      ]
+    },
+
+    {
+      "name": " islam",
+      "middleName": null,
+      "age": 25,
+      "cgpa": 3.44,
+      "isRegister": true,
+      "languages": ["bengali", "english"],
+      "friends": [
+        {
+          "name": "Anisul",
+          "age": 31
+        },
+        {
+          "name": "rubel",
+          "age": 28
+        }
+      ]
+    }
+  ]
+}

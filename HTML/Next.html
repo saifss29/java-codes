@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <style>
+      body {
+        font-family:
+          Helvetica Neue,
+          Helvetica,
+          Arial,
+          sans-serif;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+      li {
+        display: inline-block;
+        background-color: rgba(83, 42, 165, 0.193);
+        border-radius: 3px;
+        padding: 2px;
+        margin-left: 20px;
+      }
+      li:hover {
+        background-color: red;
+      }
+      li:first-child {
+        margin-left: 0;
+      }
+      a {
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      .proof {
+        display: flex;
+      }
+      .proof div {
+        width: 100%;
+        margin: 2px;
+      }
+
+      .proof.sales div {
+        background: red;
+      }
+      .proof.cash div {
+        background: pink;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li><a href="new.html">Home</a></li>
+      <li><a href="Location.html">Location</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+      <li><a href="Direction.html">Direction</a></li>
+    </ul>
+    <section class="proof sales">
+      <div>Section a</div>
+      <div>Section b</div>
+      <div>Section c</div>
+    </section>
+    <section class="proof cash">
+      <div>Section d</div>
+      <div>Section e</div>
+    </section>
+  </body>
+</html>
